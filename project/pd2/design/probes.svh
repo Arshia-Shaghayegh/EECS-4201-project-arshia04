@@ -1,16 +1,16 @@
 // ----  Probes  ----
-//`define PROBE_F_PC // ??
-//`define PROBE_F_INSN // ??
+`define PROBE_F_PC      probe_f_pc
+`define PROBE_F_INSN    probe_f_insn
 
-//`define PROBE_D_PC // ??
-//`define PROBE_D_OPCODE // ??
-//`define PROBE_D_RD // ??
-//`define PROBE_D_FUNCT3 // ??
-//`define PROBE_D_RS1 // ??
-//`define PROBE_D_RS2 // ??
-//`define PROBE_D_FUNCT7 // ??
-//`define PROBE_D_IMM // ??
-//`define PROBE_D_SHAMT // ??
+`define PROBE_D_PC      probe_d_pc
+`define PROBE_D_OPCODE  probe_d_opcode
+`define PROBE_D_RD      probe_d_rd
+`define PROBE_D_FUNCT3  probe_d_funct3
+`define PROBE_D_RS1     probe_d_rs1
+`define PROBE_D_RS2     probe_d_rs2
+`define PROBE_D_FUNCT7  probe_d_funct7
+`define PROBE_D_IMM     probe_imm      // your signal name is probe_imm
+`define PROBE_D_SHAMT   probe_d_shamt
 // ----  Probes  ----
 
 // ----  Top module  ----
